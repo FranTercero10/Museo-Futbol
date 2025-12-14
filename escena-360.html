@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Escena 1 — Museo de Fútbol 360º </title>
+
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+
+  </head>
+
+  <body>
+    <a-scene>
+
+      <!-- ASSETS -->
+      <a-assets>
+
+        <!-- Imagen 360 -->
+        <img id="museo360" src="/assets/360/museo360.jpg" />
+
+      </a-assets>
+
+      <!-- CIELO 360 -->
+
+      <a-sky src="#museo360"></a-sky>
+
+
+      <!-- CÁMARA CON CURSOR -->
+
+      <a-entity camera look-controls position="0 1.6 0">
+
+        <a-entity cursor="rayOrigin: mouse" raycaster="objects: .clickable" position="0 0 -1" geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.015" material="color: white"></a-entity> </a-entity>
+
+
+      <!-- HOTSPOTS -->
+
+      <!-- Trofeo -->
+      <a-image 
+        src="/assets/images/trofeo.jpg"
+        position="-1 1.5 -3"
+        width="1" height="1"
+        class="clickable"
+        look-at="[camera]"
+        id="btnTrofeos">
+      </a-image>
+
+      <!-- Camiseta -->
+
+      <a-image 
+        src="assets/images/camiseta.jpg"
+        position="1 1.5 -3"
+        width="1" height="1"
+        class="clickable"
+        look-at="[camera]"
+        id="btnEquipos">
+      </a-image>
+
+
+
+      <!-- script para llevar a la escena 2 (trofeos) y a la 3 (camisetas) -->
+      <script>
+        document.getElementById("btnTrofeos").addEventListener("click", () => {
+            window.location.href = "Escena-2-y-3.html?start=trofeos";
+        });
+
+        document.getElementById("btnEquipos").addEventListener("click", () => {
+            window.location.href = "Escena-2-y-3.html?start=equipos";
+        });
+
+      </script>
+
+    </a-scene>
+  </body>
+</html>

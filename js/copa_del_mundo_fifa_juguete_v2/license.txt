@@ -1,0 +1,11 @@
+Model Information:
+* title:	Copa Del Mundo FIFA Juguete V2
+* source:	https://sketchfab.com/3d-models/copa-del-mundo-fifa-juguete-v2-7e858c7305e54e7a8a98e03fa0d67a1a
+* author:	gussandro (https://sketchfab.com/gussandro)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Copa Del Mundo FIFA Juguete V2" (https://sketchfab.com/3d-models/copa-del-mundo-fifa-juguete-v2-7e858c7305e54e7a8a98e03fa0d67a1a) by gussandro (https://sketchfab.com/gussandro) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

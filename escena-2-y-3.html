@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Escena 2 y 3 — Museo Interactivo</title>
+        <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    
+        <!-- Script necesario para las colisiones -->
+        <script src="https://cdn.jsdelivr.net/gh/n5ro/aframe-physics-system/dist/aframe-physics-system.min.js"></script>
+
+    </head>
+
+    <body>
+        <a-scene physics="gravity: -9.8">
+
+            <!-- Suelo general -->
+            <a-box position="0 -0.1 -2" width="6" height="0.2" depth="14" material="src: ./assets/images/cesped.jpg; repeat: 4 4" static-body="shape: box"></a-box>
+            
+            
+            <!-- SALA TROFEOS (izquierda) -->
+
+            <!-- Techo -->
+            <a-box position="0 3 -6" width="4" height="0.1" depth="4" color="#DDD" static-body></a-box>
+
+            <!-- Pared izquierda -->
+            <a-box position="-2 1.5 -6" width="0.1" height="3" depth="4" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Pared derecha -->
+            <a-box position="2 1.5 -6" width="0.1" height="3" depth="4" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Pared trasera -->
+            <a-box position="0 1.5 -8" width="4" height="3" depth="0.1"material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Pared delantera con PUERTA (vertical) -->
+            <!-- Parte izquierda -->
+            <a-box position="-1 1.5 -4" width="1" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3"" static-body></a-box>
+            <!-- Parte derecha -->
+            <a-box position="1 1.5 -4" width="1" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+
+            <!-- Titulo de la sala -->
+            <a-text value="SALA DE TROFEOS" position="0 2.7 -6" align="center"></a-text>
+
+     
+     
+
+
+
+            <!-- Zona del pasillo entre salas -->
+
+            <!-- Techo -->
+            <a-box position="0 3 -2" width="2" height="0.1" depth="4" color="#DDD" static-body></a-box>
+
+            <!-- Pared izquierda (sin cambios) -->
+            <a-box position="-1 1.5 -2" width="0.1" height="3" depth="4" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Pared derecha (sin cambios) -->
+            <a-box position="1 1.5 -2" width="0.1" height="3" depth="4" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Parte izquierda -->
+            <a-box position="-0.75 1.5 -4.05" width="0.5" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Parte derecha -->
+            <a-box position="0.75 1.5 -4.05" width="0.5" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Parte izquierda -->
+            <a-box position="-0.75 1.5 0.05" width="0.5" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Parte derecha -->
+            <a-box position="0.75 1.5 0.05" width="0.5" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+
+            <!-- Titulo de la sala -->
+            <a-text value="Pasillo" position="0 2.7 -2" align="center"></a-text>            
+            
+     
+     
+
+
+     
+     
+            <!-- SALA EQUIPOS (derecha) -->
+ 
+            <!-- Techo -->
+            <a-box position="0 3 2" width="4" height="0.1" depth="4" color="#EEE" static-body></a-box>
+
+            <!-- Pared izquierda -->
+            <a-box position="-2 1.5 2" width="0.1" height="3" depth="4" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Pared derecha -->
+            <a-box position="2 1.5 2" width="0.1" height="3" depth="4" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Pared delantera -->
+            <a-box position="0 1.5 4" width="4" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+            <!-- Pared trasera con PUERTA -->
+            <a-box position="-1 1.5 0" width="1" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+            <a-box position="1 1.5 0" width="1" height="3" depth="0.1" material="src: ./assets/images/painted_wall.jpg; repeat: 10 3" static-body></a-box>
+
+
+... (38 líneas restantes)

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sala de Museo Virtual</title>
+<script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+</head>
+<body>
+<a-scene>
+    <!-- Aquí va nuestra escena-->
+<a-plane
+position="0 0 0"
+rotation="-90 0 0"
+width="10"
+height="10"
+material="src: ./assets/images/cesped.jpg; repeat: 4 4"
+></a-plane>
+<!-- Pared frontal -->
+<a-box
+position="0 1.5 -5"
+width="10"
+height="3"
+depth="1"
+material="src: ./assets/images/painted_wall.jpg; repeat: 10 3"
+></a-box>
+<!-- Pared Trasera -->
+<a-box
+position="0 1.5 5"
+width="10"
+height="3"
+depth="1"
+material="src: ./assets/images/painted_wall.jpg; repeat: 10 3"
+></a-box>
+<!-- Pared Izquierda -->
+<a-box
+position="-5 1.5 0"
+rotation="0 90 0"
+width="10"
+height="3"
+depth="1"
+material="src: ./assets/images/painted_wall.jpg; repeat: 10 3"
+></a-box>
+<!-- Pared Derecha -->
+<a-box
+position="5 1.5 0 "
+rotation="0 -90 0"
+rotation="0 90 0"
+width="10"
+height="3"
+depth="1"
+material="src: ./assets/images/painted_wall.jpg; repeat: 10 3"
+></a-box>
+<!-- Cielo (fondo) -->
+<a-sky color="skyblue">
+</a-sky>
+<!-- Cuadro de ejemplo en la pared frontal -->
+<a-image
+position="0 1.7 -4.49"
+src="./assets/images/maradona.jpg"
+width="1.5"
+height="2"
+></a-image>
+<a-text
+  value="MARADONA"
+  position="0 0.5 -4.49"
+  align="center"
+  color="#000"
+  width="4">
+</a-text>
+<a-image
+position="-3 1.7 -4.49"
+src="./assets/images/cruyff.jpg"
+width="1.5"
+height="2"
+></a-image>
+<a-text
+  value="Johan Cruyff"
+  position="-3 0.5 -4.49"
+  align="center"
+  color="#000"
+  width="4">
+</a-text>
+<a-image
+position="3 1.7 -4.49"
+src="./assets/images/Pele.jpg"
+width="1.5"
+height="2"
+></a-image>
+<a-text
+  value="PELE"
+  position="3 0.5 -4.49"
+  align="center"
+  color="#000"
+  width="4">
+</a-text>
+<!-- Estatua Señor Griego -->
+<a-assets>
+<a-asset-item id="discobolus"
+src="./js/copa_del_mundo_fifa_juguete_v2/scene.gltf">
+</a-assets>
+<a-entity position="-1.5 1 -4" scale="0.7 0.7 0.7"
+gltf-model="#discobolus"></a-entity>
+</a-scene>
+<a-assets>
+<a-asset-item id="balondeoro"
+src="./js/ballon_dor/scene.gltf">
+</a-assets>
+<a-entity position="-3.5 0.5 -4" scale="0.2 0.2 0.2"
+gltf-model="#balondeoro"></a-entity>
+</a-scene>
+</body>
+</html>

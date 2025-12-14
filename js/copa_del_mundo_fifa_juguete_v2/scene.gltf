@@ -1,0 +1,258 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.5735167860984802,
+        1.198157548904419,
+        1.2070465087890625
+      ],
+      "min": [
+        -0.5781747698783875,
+        -1.794864535331726,
+        -0.874249279499054
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.999991774559021,
+        0.99992436170578,
+        0.999984860420227
+      ],
+      "min": [
+        -0.9999986290931702,
+        -0.9977219104766846,
+        -0.9999915361404419
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.95686274766922,
+        0.8588235378265381,
+        0.7529411911964417,
+        1.0
+      ],
+      "min": [
+        0.0941176488995552,
+        0.18431372940540314,
+        0.04313725605607033,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 344160,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 49782,
+      "max": [
+        0.5557328462600708,
+        1.1975880861282349,
+        1.1979892253875732
+      ],
+      "min": [
+        -0.5781747698783875,
+        -1.7932500839233398,
+        -0.874249279499054
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2170152,
+      "componentType": 5126,
+      "count": 49782,
+      "max": [
+        0.9999358654022217,
+        0.9994415044784546,
+        0.9999993443489075
+      ],
+      "min": [
+        -0.9999647736549377,
+        -0.9977219104766846,
+        -0.9999982118606567
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 49782,
+      "max": [
+        0.9529411792755127,
+        0.8705882430076599,
+        0.7098039388656616,
+        1.0
+      ],
+      "min": [
+        0.0941176488995552,
+        0.18431372940540314,
+        0.03529411926865578,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1376640,
+      "componentType": 5125,
+      "count": 215646,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "gussandro (https://sketchfab.com/gussandro)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/copa-del-mundo-fifa-juguete-v2-7e858c7305e54e7a8a98e03fa0d67a1a",
+      "title": "Copa Del Mundo FIFA Juguete V2"
+    },
+    "generator": "Sketchfab-16.52.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2239224,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2767536,
+      "byteOffset": 2239224,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1845024,
+      "byteOffset": 5006760,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6851784,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 6,
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.9997504949569702,
+        -0.022338425740599632,
+        -3.225403442241788e-18,
+        0.0,
+        0.0200244951993227,
+        0.896191120147705,
+        0.4432160854339602,
+        0.0,
+        -0.009900749661028385,
+        -0.44310548901557945,
+        0.896414816379547,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "Geode"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
